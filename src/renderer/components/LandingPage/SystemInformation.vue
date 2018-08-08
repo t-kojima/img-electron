@@ -42,8 +42,7 @@
         vue: require('vue/package.json').version
       }
     }
-  }
-</script>
+  }</script>
 
 <style scoped>
   .title {
