@@ -1,6 +1,6 @@
 <template>
   <multipane class="vertical-panes" layout="vertical">
-    <div class="pane" :style="{ width: '240px', minWidth: '120px' }">
+    <div class="pane" :style="{ width: '320px', minWidth: '215px' }">
       <explorer />
     </div>
     <multipane-resizer> </multipane-resizer>
@@ -35,7 +35,8 @@ export default {
   text-align: left;
   padding: 3px;
   overflow: hidden;
-  background: #eee;
+  /* background-color: #545c64;
+  color: #fff; */
 }
 .vertical-panes > .pane ~ .pane {
   border-left: 2px solid #ccc;
